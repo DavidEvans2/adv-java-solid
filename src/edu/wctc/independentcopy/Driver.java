@@ -21,11 +21,12 @@ public class Driver {
          causes no problems with Copier class because it's
          polymorphic!!!
          */
-
-        Reader reader = new KeyboardReader();
+        Reader reader = new ListReader();
+        //Reader reader = new KeyboardReader();
         //Reader reader = new FileReader();
 
-        Writer writer = new ConsoleWriter();
+        Writer writer = new ListWriter();
+        //Writer writer = new ConsoleWriter();
         //Writer writer = new GuiWriter();
         //Writer writer = new FileWriter();
 
