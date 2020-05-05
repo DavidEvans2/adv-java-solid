@@ -24,9 +24,10 @@ public class Driver {
          polymorphic!!!
          */
 
-        Reader reader = new ListReader();
         //Reader reader = new KeyboardReader();
         //Reader reader = new FileReader();
+        Reader reader = new ListReader();
+
 
         Writer writer = new ListWriter();
         //Writer writer = new ConsoleWriter();
