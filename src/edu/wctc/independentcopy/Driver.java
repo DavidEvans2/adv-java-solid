@@ -1,8 +1,10 @@
 package edu.wctc.independentcopy;
 
 import edu.wctc.independentcopy.reader.KeyboardReader;
+import edu.wctc.independentcopy.reader.ListReader;
 import edu.wctc.independentcopy.reader.Reader;
 import edu.wctc.independentcopy.writer.ConsoleWriter;
+import edu.wctc.independentcopy.writer.ListWriter;
 import edu.wctc.independentcopy.writer.Writer;
 
 /**
@@ -21,6 +23,7 @@ public class Driver {
          causes no problems with Copier class because it's
          polymorphic!!!
          */
+
         Reader reader = new ListReader();
         //Reader reader = new KeyboardReader();
         //Reader reader = new FileReader();
